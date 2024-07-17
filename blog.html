@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog page</title>
+    <style>
+.container{
+      width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo {
+    margin-left: 150px;
+}
+.logo h1{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 70px;
+}
+
+nav {
+    display: flex;
+    align-items: center; 
+    padding: 10px 20px; 
+    margin-top: 50px;
+}
+
+nav ul {
+    margin-left: 20px;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px; 
+    position: relative; 
+}
+
+nav ul li a {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 15px; 
+    display: block;
+    
+}
+
+nav ul li:hover ul {
+    display: block; 
+}
+
+
+nav ul li ul {
+    display: none; 
+    position: absolute;
+    top: 100%; 
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+nav ul li ul li {
+    width: 180px; 
+}
+
+nav ul li ul li a {
+    font-size: 16px; 
+    padding: 10px 15px; 
+    display: block; 
+    white-space: nowrap;
+}
+a:active,a:hover{
+    text-decoration: underline; 
+    text-decoration-thickness:1px ;
+}
+
+.end {
+    margin-left: auto;
+}
+
+.end ul {
+    display: flex;
+    align-items: center; 
+}
+
+.end ul li {
+    margin-left: 20px;
+}
+.A{
+  margin-top: 50px;
+}
+.A h1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-style: normal;
+    font: bold;
+}
+.R{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    margin-left: 100px;
+    column-gap: 80px;
+    row-gap: 60px;
+}
+.R img{
+    border-radius: 40px;
+}
+.C{
+   height: 200px;
+   width: 100%;
+   background-color: black;
+   color: white;
+   margin-top: 100px;
+   display: flex;
+   column-gap: 250px;
+}
+.C h1{
+    padding-top: 70px;
+    padding-left: 20px;
+    font-size: 60px;
+}
+.C input{
+    height: 50px;
+    width: 600px;
+    margin-top: 80px;
+}
+.D{
+   margin-top: 100px;
+   display: flex;
+   column-gap: 250px;
+   font-size: 20px;
+   font-family: Arial, sans-serif;
+   margin-left: 20px;
+}
+.D2{
+    padding-top: 100px;
+    margin-left: 100px;
+    padding-left: 70px;
+}
+.D3{
+    margin-left: 200px;
+}
+.R h4{
+    margin-top: 30px;
+    font-size: 22px;
+}
+.R h1{
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+    </style>
+</head>
+<body>
+  <div class="container">
+    <nav>
+        <ul>
+            <li><a href="#" target="_blank">HOME</a></li>
+            <li><a href="#" target="_blank">PAGE</a>
+            <ul>
+                <li><a href="" target="_blank">ABOUT US</a></li>
+                <li><a href="" target="_blank">SHOP DETAILS</a></li>
+                <li><a href="" target="_blank">SHOP CATEGORY</a></li>
+                <li><a href="" target="_blank">BLOG</a></li>
+                <li><a href="" target="_blank">BLOG CATEGORY</a></li>
+                <li><a href="" target="_blank">BLOG SINGLE</a></li>
+                <li><a href="" target="_blank">404</a></li>
+            </ul>
+            </li>
+            <li><a href="#" target="_blank">SHOP</a></li>
+            <li><a href="#" target="_blank">CONTACT</a></li>
+        </ul>
+        <div class="logo"><h1>Fabrio</h1></div>
+        <div class="end">
+            <ul>
+            <li><a href="#" target="_blank">ACCOUNT</a></li>
+            <li><a href="" target="_blank" class="cart">CART 0</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="A">
+        <h1>BLOG FASHION</h1>
+        <img src="image/portrait-woman-wearing-hat.avif" width="111%" height="700px">
+    </div>
+    <div class="R">
+        <div class="R1">
+            <img src="image/best_french.webp" width="680px" height="500px">
+            <h4>Trending Clothes</h4>
+            <h1>Glamour Gazette: Allure<br> in Fashion News</h1>
+            <h4>July 22, 2023, 0 Comments</h4>
+        </div>
+        <div class="R2">
+            <img src="image/NR2Zk4E79Z3.jpg" width="700px" height="500px">
+            <h4>summer Collections</h4>
+            <h1>Styled Stories: A Fashion<br> Odyssey Begins</h1>
+            <h4>July 22, 2023, 0 Comments</h4>
+        </div>
+        <div class="R3">
+            <img src="image/biggest-trends-paris-fashion.webp" width="680px" height="500px">
+            <h4>winter Collections</h4>
+            <h1>Modish Musings: Curated<br> Fashion Inspiration</h1>
+            <h4>July 22, 2023, 0 Comments</h4>
+        </div>
+        <div class="R4">
+            <img src="image/portrait-woman-wearing-hat.avif" width="700px" height="500px">
+            <h4>Trending Clothes</h4>
+            <h1>Effortless Elegance:<br>Fashion Made Simple</h1>
+            <h4>July 22, 2023, 0 Comments</h4>
+        </div>
+        <div class="R5">
+            <img src="image/tailored-short-man-style.jpg" width="680px" height="500px">
+            <h4>summer Collections</h4>
+            <h1>Runway Rendezvous: Embrace<br> the Haute Couture</h1>
+            <h4>July 22, 2023, 0 Comments</h4>
+        </div>
+        <div class="R6">
+            <img src="image/the-versatile-closet-two-styles.jpg" width="700px" height="500px">
+            <h4>winter Collections</h4>
+            <h1>Trendsetter's Junction: Where<br> Fashion Collides</h1>
+            <h4>July 22, 2023, 0 Comments</h4>
+        </div>
+        <div class="R7">
+            <img src="image/two-young-beautiful-smiling.avif" width="680px" height="500px">
+            <h4>Trending Clothes</h4>
+            <h1>Chic Threads: Style<br> and Substance Unite</h1>
+            <h4>July 22, 2023, 0 Comments</h4>
+        </div>
+        <div class="R8">
+            <img src="image/beautiful-fashion-woman-her.webp" width="700px" height="500px">
+            <h4>summer Collections</h4>
+            <h1>quick perusal<br> of website shos eye-catching</h1>
+            <h4>July 22, 2023, 0 Comments</h4>
+        </div>
+    </div>
+    <div class="C">
+        <h1>NEWSLATTER</h1>
+        <input type="text" placeholder="Enter Email Here">
+    </div>
+    <div class="D">
+        <div class="D1">
+            <h1>PAGES</h1><br>
+            <p>ABOUT US</p><br>
+            <p>STYLE GUIDE</p><br>
+            <p>LICENSES</p><br>
+            <p>CHANGELOG</p><br>
+            <p>CONTACT</p><br>
+        </div>
+        <div class="D2" style="text-align: center;">
+            <h1>FABRIO</h1><br>
+            <p>Powered by Webflow created by PeacefulQode.</p>
+        </div>
+        <div class="D3">
+            <h1>SOCIAL</h1><br>
+            <p>FACEBOOK</p><br>
+            <p>INSTAGRAM</p><br>
+            <p>YOUTUBE</p><br>
+            <p>LINKEDIN</p><br>
+            <p>TWITTER</p><br>
+        </div>
+    </div>       
+  </div>  
+</body>
+</html>
